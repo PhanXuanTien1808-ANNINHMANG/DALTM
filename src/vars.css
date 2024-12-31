@@ -1,0 +1,21 @@
+:root {
+  /* Colours */
+  --color-text: #fff; /* Màu chữ trắng */
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+
+  /* Fonts */
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg); /* Màu nền */
+  color: var(--color-text); /* Màu chữ (trắng) */
+  font-family: var(--font-roboto);
+}
+
+h1, p {
+  color: var(--color-text); /* Màu trắng cho cả tiêu đề và đoạn văn */
+}
