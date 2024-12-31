@@ -1,26 +1,47 @@
 [
   {
-    "title": "Project A",
+    "title": "Java Core for Beginners",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Java Core for Beginners (Java Core cho người mới bắt đầu):\nNội dung: Các khái niệm cơ bản về Java như biến, kiểu dữ liệu, toán tử, cấu trúc điều khiển (if-else, for, while), mảng, và chuỗi.\nTại sao quan trọng: Đây là nền tảng vững chắc để bạn có thể tiến xa hơn trong việc học Java.\nTừ khóa tìm kiếm: Java core tutorial, Java cho người mới bắt đầu, Java cơ bản."
   },
   {
-    "title": "Project B",
+    "title": "Object-Oriented Programming in Java",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Object-Oriented Programming in Java (Lập trình hướng đối tượng trong Java):\nNội dung: Các khái niệm quan trọng của lập trình hướng đối tượng (OOP) như lớp, đối tượng, kế thừa, đa hình, đóng gói, và trừu tượng.\nTại sao quan trọng: OOP là một trong những paradigm lập trình quan trọng, và Java là ngôn ngữ hướng đối tượng.\nTừ khóa tìm kiếm: \"Java OOP tutorial\", \"lập trình hướng đối tượng Java\", \"kế thừa trong Java\"."
   },
   {
-    "title": "Project C",
+    "title": "Java Collections Framework",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
+    "description": "Java Collections Framework (Java Collections Framework):\nNội dung: Các cấu trúc dữ liệu được tích hợp sẵn trong Java như ArrayList, LinkedList, HashMap, HashSet, và TreeMap.\nTại sao quan trọng: Giúp bạn làm việc với dữ liệu một cách hiệu quả và dễ dàng hơn.\nTừ khóa tìm kiếm: \"Java collections tutorial\", \"ArrayList trong Java\", \"HashMap trong Java\"."
+  },
+  {
+    "title": "Exception Handling in Java",
+    "imageSrc": "projects/project.png",
+     "description": "Exception Handling in Java (Xử lý ngoại lệ trong Java):\nNội dung: Cách xử lý các lỗi và ngoại lệ có thể xảy ra trong quá trình chạy chương trình bằng try, catch, finally, và throw.\nTại sao quan trọng: Giúp chương trình của bạn ổn định và ít bị crash hơn.\nTừ khóa tìm kiếm: \"Java exception handling tutorial\", \"try catch Java\", \"throw exception Java\"."
+  },
+   {
+    "title": "Java Multithreading",
+    "imageSrc": "projects/project.png",
+    "description": "Java Multithreading (Đa luồng trong Java):\nNội dung: Cách tạo và quản lý các luồng (thread) để thực hiện nhiều công việc cùng một lúc trong Java.\nTại sao quan trọng: Giúp bạn xây dựng các ứng dụng có hiệu suất cao, đặc biệt là ứng dụng cần thực hiện nhiều tác vụ đồng thời.\nTừ khóa tìm kiếm: \"Java multithreading tutorial\", \"Java thread tutorial\", \"concurrency in Java\"."
+   },
+   {
+    "title": "JavaScript Fundamentals",
+    "imageSrc": "projects/project.png",
+    "description": "JavaScript Fundamentals (Nền tảng JavaScript):\nNội dung: Các kiến thức cơ bản về JavaScript như biến, kiểu dữ liệu, toán tử, cấu trúc điều khiển (if-else, for, while), hàm, mảng, và đối tượng.\nTại sao quan trọng: Nắm vững nền tảng là bước đầu tiên để bạn có thể xây dựng các ứng dụng JavaScript phức tạp hơn.\nTừ khóa tìm kiếm: \"JavaScript basics tutorial\", \"JavaScript cho người mới bắt đầu\", \"JavaScript cơ bản\"."
+  },
+  {
+    "title": "DOM Manipulation in JavaScript",
+    "imageSrc": "projects/project.png",
+    "description": "DOM Manipulation in JavaScript (Thao tác DOM trong JavaScript):\nNội dung: Cách truy cập và thay đổi các phần tử HTML trên trang web bằng JavaScript, cách xử lý sự kiện, và cách tạo hiệu ứng động.\nTại sao quan trọng: DOM (Document Object Model) là cầu nối giữa HTML và JavaScript, giúp bạn tạo ra các trang web tương tác.\nTừ khóa tìm kiếm: \"JavaScript DOM tutorial\", \"thao tác DOM JavaScript\", \"JavaScript event handling\"."
+  },
+  {
+    "title": "Asynchronous JavaScript and Promises",
+    "imageSrc": "projects/project.png",
+    "description": "Asynchronous JavaScript and Promises (JavaScript bất đồng bộ và Promises):\nNội dung: Cách xử lý các tác vụ bất đồng bộ như gọi API, xử lý dữ liệu từ server, và cách sử dụng Promises, async/await để viết code dễ đọc và dễ quản lý hơn.\nTại sao quan trọng: Lập trình bất đồng bộ là một phần quan trọng trong JavaScript hiện đại, giúp ứng dụng của bạn không bị \"treo\" khi chờ đợi các tác vụ mất thời gian.\nTừ khóa tìm kiếm: \"JavaScript asynchronous tutorial\", \"JavaScript promises\", \"async await JavaScript\"."
+  },
+  {
+    "title": "Modern JavaScript Frameworks",
+    "imageSrc": "projects/project.png",
+    "description": "Modern JavaScript Frameworks (React, Angular, or Vue) (Các framework JavaScript hiện đại - React, Angular, hoặc Vue):\nNội dung: Tìm hiểu về một trong những framework JavaScript phổ biến như React, Angular, hoặc Vue, bao gồm cách xây dựng component, quản lý state, và routing.\nTại sao quan trọng: Sử dụng framework giúp bạn phát triển ứng dụng web một cách nhanh chóng và hiệu quả hơn.\nTừ khóa tìm kiếm: \"React tutorial\", \"Angular tutorial\", \"Vue tutorial\", \"JavaScript framework\". Bạn có thể chọn một framework cụ thể mà bạn quan tâm."
+    }
 ]

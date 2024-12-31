@@ -33,7 +33,7 @@ export const Navbar = () => {
             <a href="#experience">Chứng chỉ</a>
           </li>
           <li>
-            <a href="#projects">Các </a>
+            <a href="#projects">Bài viết về Java và JavaScript</a>
           </li>
           <li>
             <a href="#contact">Liên hệ</a>

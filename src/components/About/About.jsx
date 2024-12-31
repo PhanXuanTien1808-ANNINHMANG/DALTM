@@ -41,7 +41,7 @@ export const About = () => {
               <p>
                - Em muốn bản thân trở nên hoàn thiện hơn<br />
                - Học lên bằng thạc sĩ<br />
-               - Có được một công viên ổn định
+               - Có được một công việc ổn định
               </p>
             </div>
           </li>

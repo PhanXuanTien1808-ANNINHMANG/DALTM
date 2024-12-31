@@ -1,120 +1,157 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
 }
 
 .skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
 }
 
 .skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
 }
 
 .skillImageContainer img {
-  width: 75px;
+    width: 75px;
 }
 
 .skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+/* Thay đổi ở đây */
+.historyCards {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Increased minimum width by 20px */
+    gap: 30px; /* Khoảng cách giữa các card */
 }
 
-.history {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+.historyItemCard {
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Can giữa nội dung theo chiều ngang */
+    padding: 40px;
+    gap: 17px;
+    transition: transform 0.3s ease;
 }
 
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
+.historyItemCard:hover {
+    transform: translateY(-5px);
 }
 
-.historyItem img {
-  width: 50px;
+.historyItemImage {
+    width: 150px;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
+.historyItemCardDetails h3 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center; /* Can giữa h3 */
 }
 
-.historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
+.historyItemCardDetails p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center; /* Can giữa p */
 }
 
-.historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
+
+.historyDescription {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center; /* Can giữa description */
 }
 
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
-  margin-left: 17px;
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center; /* Can giữa các certificate items */
 }
 
-@media screen and (max-width: 830px) {
-  .content {
+.certificateItem {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 34px;
-  }
+    text-align: center; /* Can giữa text */
+}
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
+.certificateItem img {
+    width: 100px;   /* Increased width */
+    height: 100px;  /* Increased height */
+    object-fit: contain;
+}
 
-  .history {
-    width: 100%;
-    gap: 9px;
-  }
+.certificateItem p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .historyCards {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); /* Increased minimum width by 20px */
+        gap: 10px;
+    }
+    .historyItemCard {
+        padding: 15px;
+    }
 }
